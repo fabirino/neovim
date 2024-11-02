@@ -22,4 +22,12 @@ return require('packer').startup(function(use)
 
   use('tpope/vim-fugitive')
 
+  use({'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'})
+  use({'neovim/nvim-lspconfig'})
+  use({'hrsh7th/nvim-cmp'})
+  use({'hrsh7th/cmp-nvim-lsp'})
+  use {
+	  "williamboman/mason.nvim",
+	  "williamboman/mason-lspconfig.nvim",
+  }
  end);

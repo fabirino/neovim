@@ -12,10 +12,10 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
- 
+
   use { "catppuccin/nvim", as = "catppuccin" }
 
-  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})	
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
 
   use('mbbill/undotree')
@@ -30,4 +30,7 @@ return require('packer').startup(function(use)
 	  "williamboman/mason.nvim",
 	  "williamboman/mason-lspconfig.nvim",
   }
+
+  use 'lervag/vimtex'
+
  end);

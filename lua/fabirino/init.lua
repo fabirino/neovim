@@ -1,2 +1,3 @@
 require("fabirino.remap")
-print("hello from fabirino")
+require("fabirino.set")
+

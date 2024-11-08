@@ -1,3 +1,5 @@
+vim.api.nvim_set_hl(0 , "Normal", {bg = "NONE"})
+
 vim.opt.guicursor = ""
 
 vim.opt.nu = true

@@ -61,6 +61,10 @@ return require('packer').startup(function(use)
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
-    -- Color highliht
+    -- Color highlight
     use 'norcalli/nvim-colorizer.lua'
+
+    -- TODO Highlighting
+    use "folke/todo-comments.nvim"
+
 end);

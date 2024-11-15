@@ -1,3 +1,5 @@
+-- Theme
+
 require("catppuccin").setup({
     flavour = "frappe", -- latte, frappe, macchiato, mocha
     background = { -- :h background
@@ -59,3 +61,8 @@ function Colors(color)
 end
 
 Colors()
+
+-- Colorizer #ffffff
+require('colorizer').setup()
+
+

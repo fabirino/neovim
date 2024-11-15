@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/fabirino/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?/init.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/fabirino/.cache/nvim/packer_hererocks/2.1.1727870382/lib/lua/5.1/?.so"
+local package_path_str = "/home/fabirino/.cache/nvim/packer_hererocks/2.1.1731485912/share/lua/5.1/?.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1731485912/share/lua/5.1/?/init.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1731485912/lib/luarocks/rocks-5.1/?.lua;/home/fabirino/.cache/nvim/packer_hererocks/2.1.1731485912/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/fabirino/.cache/nvim/packer_hererocks/2.1.1731485912/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -170,6 +170,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fabirino/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/fabirino/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   undotree = {
     loaded = true,

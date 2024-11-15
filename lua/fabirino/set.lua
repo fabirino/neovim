@@ -11,7 +11,7 @@ vim.opt.smartindent = true
 vim.opt.autoindent = true
 
 vim.opt.wrap = true
-vim.opt.wrapmargin = 40
+vim.opt.wrapmargin = 15
 vim.opt.linebreak = true
 
 -- vim.opt.linewrap = false
